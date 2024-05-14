@@ -15,6 +15,10 @@ public class UsePlayingCards {
 		System.out.println("aUSACard2 is :");
 		aUSACard2.showCard();  // runs the AmericanPlayingCard showCard()
 
+		System.out.println("The value in aUsaCard is:"+ aUSACard.getValue());
+
+		ItalianPlayingCard anItalianCard = new ItalianPlayingCard(6, "Coins");
+		anItalianCard.showCard();
 	}  // End of main()
 
 }  // End of class that holds main()
